@@ -2,3 +2,37 @@
     margin: 0;
     font-family: 'Open Sans', sans-serif;
 }
+/* navigation style */
+.nave-titile{
+    color: #181818;
+    font-size: 45px;
+    font-family: Open Sans ;
+    font-weight: 800;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    margin: 50px 200px;
+}
+nav ul{
+    display: flex;
+    align-items: center;
+}
+nav li{
+    list-style: none;
+    margin-left: 50px;
+}
+.marry-s{
+    color: #FD6E0A;
+}
+.btn-primery{
+    height: 64px;
+    padding: 18px 35px;
+    color: #ffffff;
+    font-weight: 700;
+    background-color: #FD6E0A;
+    border-radius: 5px;
+    border:0;
+
+
+}
