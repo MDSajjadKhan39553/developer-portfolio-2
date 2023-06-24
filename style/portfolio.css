@@ -70,14 +70,16 @@ main{
 }
 /* about section style */
 .about{
-    margin-top: 130px;
     padding: 130px 150px;
     border-radius: 10px;
     background: #FFF8F3;
 }
 .section-title{
+    color:#181818;
     text-align: center;
-    margin-bottom: 30px;
+    font-size: 35px;
+    font-family: Open Sans;
+    font-weight: 700;
 }
 .section-description{
     color:#757575;
@@ -90,7 +92,7 @@ main{
 /* about-info-container */
 .about-info-container{
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
 }
 .about-info{
 
@@ -108,4 +110,91 @@ main{
     font-size: 20px;
     font-family: Open Sans;
     line-height: 30px;
+}
+/* what i do */
+.what-i-do{
+    background: #FFF8F3;
+}
+.section-title{
+
+}
+.section-description{
+
+}
+.skills-container{
+    display: flex;
+    gap: 24px;
+}
+.skills{
+    border-radius: 5px;
+    background: #FFF;
+    box-shadow: 0px 6px 50px 0px rgba(0, 0, 0, 0.06);
+    padding: 30px;
+
+}
+.skills img{
+ margin:30px 0;
+ 
+}
+.skills-title{
+    color: #181818;
+    text-align: center;
+    font-size: 20px;
+    font-weight: 700;
+    font-family: Open Sans;
+    margin-bottom: 20px;
+}
+.skills-description{
+    color: #757575;
+    text-align: center;
+    font-size: 16px;
+    font-family: Open Sans;
+}
+/* resume style */
+.resume{
+    
+}
+.section-title{
+
+}
+.resume-content-container{
+    display: flex;
+    gap: 24px;
+    margin-top: 113px;
+}
+.resume-title{
+    color: #474747;
+    font-size: 30px;
+    font-family: Open Sans;
+    font-weight: 700;
+}
+.resume-item{
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+.resume-item .title{
+    color:#474747;
+    font-size: 25px;
+    font-family: Open Sans;
+    font-weight: 700;
+    margin-bottom: 10px;
+}
+.resume-item .sub-title{
+    color:#757575;
+    font-size: 20px;
+    font-family: Open Sans;
+    font-weight: 600;
+    margin-bottom: 20px;
+}
+.resume-item .descrioption{
+    color:#757575;
+    font-size: 16px;
+    font-family: Open Sans;
+    line-height: 28px;
+}
+/* resume button */
+.resume-btn{
+    margin-top: 50px;
+    margin-bottom: 130px;
+    text-align: center;
 }
